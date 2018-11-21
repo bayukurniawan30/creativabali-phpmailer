@@ -19,8 +19,8 @@ $mail->SMTPDebug = 2;
 $mail->isSMTP();                                      
 $mail->Host = 'srv40.niagahoster.com';  
 $mail->SMTPAuth = true;                             
-$mail->Username = 'no-reply@biobugbali.com';                 
-$mail->Password = 'xPDn99Xvy6r5';                         
+$mail->Username = $username;                 
+$mail->Password = $password;                         
 $mail->SMTPSecure = 'ssl';                            
 $mail->Port = 465;                                   
 $mail->SMTPOptions = array(
